@@ -24,3 +24,9 @@ print (numbers)
 
 even = [i for i in range(1,100+1) if i%2==0 ]
 print(even)
+
+
+#condition in list comperehension(else)
+
+even2 = [i if i%2==0 else 0 for i in range(1,100+1)  ]
+print(even2)
