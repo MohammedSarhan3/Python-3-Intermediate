@@ -30,3 +30,11 @@ print(even)
 
 even2 = [i if i%2==0 else 0 for i in range(1,100+1)  ]
 print(even2)
+
+
+#Enumerate
+names3=['ahmed','ali','mohammad','mahmood']
+for index, name in enumerate (names3):
+    if index ==2:
+        print("in tow")
+    print(f"{index}: {name}")
