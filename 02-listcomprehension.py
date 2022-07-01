@@ -18,3 +18,9 @@ for i in range(5):
 
 numbers = [  (i,j) for i in range(5)   for j in range(3)  ]
 print (numbers)
+
+
+#condition in list comperehension
+
+even = [i for i in range(1,100+1) if i%2==0 ]
+print(even)
