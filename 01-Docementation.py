@@ -33,3 +33,16 @@ class Clac:
 
 c=Clac()
 print(help(c))
+
+
+#documentation ---> type Hints
+def mysum(x:int,y:int)->int:
+    result=x+y
+    return result
+v= mysum(5,10)
+print(v)
+
+
+
+
+
