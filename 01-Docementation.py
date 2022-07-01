@@ -10,3 +10,26 @@ class Clac:
         return x+y # BUG: return the sum of x,y
                     #HOTFIX: return the sum of x,y
                     #TODO: return the sum of x,y
+
+
+
+#documentation :  User , manual
+class Clac:
+    ''' class for for clac '''
+    def __init__(self):
+        print("Welcome")
+
+    def sum (self,x,y):
+        '''
+            simple function to sum 2 value [x,y]
+            input:
+                x: int
+                y: int
+            output :
+                 int
+        '''
+        
+        return x+y
+
+c=Clac()
+print(help(c))
